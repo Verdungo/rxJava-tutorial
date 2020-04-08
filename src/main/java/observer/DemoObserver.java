@@ -15,12 +15,12 @@ public class DemoObserver<T> implements Observer<T> {
 
     @Override
     public void onNext(Object o) {
-        LOGGER.info("onNext ->{}", o.toString());
+        LOGGER.info("onNext -> {}", o.toString());
     }
 
     @Override
     public void onError(Throwable throwable) {
-        LOGGER.info("onError ->{}", throwable.getMessage());
+        LOGGER.info("onError -> {}", throwable.getMessage());
     }
 
     @Override
