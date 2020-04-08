@@ -96,7 +96,7 @@ public class RxUtils {
 
     private static String randomShape() {
         Random random = new Random();
-        String[] shape = {"square", "triangle", "circle", "pentagon", "hexagon", "stars"};
+        String[] shape = {"square", "triangle", "circle", "pentagon", "hexagon", "star"};
         return shape[random.nextInt(getRandomNumberInRange(1, 6))];
     }
 
