@@ -34,7 +34,7 @@ public class ObservableWithBackpressure {
             @Override
             public void onNext(Integer integer) {
                 LOGGER.info("onNext -> {}", integer);
-                //RxUtils.sleep(100);
+                RxUtils.sleep(10);
                 if (counter.incrementAndGet() % 5 == 0) {
                     subscription.request(5);
                 }
