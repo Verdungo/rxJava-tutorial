@@ -1,8 +1,6 @@
 package operators.filtering;
 
 import io.reactivex.Observable;
-import io.reactivex.functions.Predicate;
-import models.Shape;
 import observer.DemoObserver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
