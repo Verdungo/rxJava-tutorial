@@ -10,7 +10,7 @@ import utils.RxUtils;
 import java.util.concurrent.TimeUnit;
 
 public class CombineLatest {
-    private static final Logger LOGGER = LoggerFactory.getLogger(TakeOperator.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(CombineLatest.class);
 
     public static void main(String[] args) {
         LOGGER.info("CombineLatest class");

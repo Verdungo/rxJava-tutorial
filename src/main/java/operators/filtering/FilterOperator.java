@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 import utils.RxUtils;
 
 public class FilterOperator {
-    private static final Logger LOGGER = LoggerFactory.getLogger(TakeOperator.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(FilterOperator.class);
 
     public static void main(String[] args) {
         Observable.fromIterable(RxUtils.shapes(30))

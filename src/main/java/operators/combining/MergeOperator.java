@@ -11,7 +11,7 @@ import utils.RxUtils;
 import java.util.concurrent.TimeUnit;
 
 public class MergeOperator {
-    private static final Logger LOGGER = LoggerFactory.getLogger(TakeOperator.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(MergeOperator.class);
 
     public static void main(String[] args) {
         LOGGER.info("Let's Merge!");
